@@ -1,6 +1,4 @@
-package com.one97.dataSource;
-
-import java.util.List;
+package com.one97.common.service;
 
 /*
  * ---------------------------------------------------------------------------------------------
@@ -13,10 +11,19 @@ import java.util.List;
  */
 
 /**
- * Created by prashant on 4/9/15.
+ *
  */
-public interface DataProvider {
+public interface LifecycleListener {
 
-    <T> List<T> bulkDataFetcher(int numberOfRecordsToSkip, int fetchSize, Class<T> clazz);
+    void beforeStart();
 
+    void afterStart();
+
+    void beforeStop();
+
+    void afterStop();
+
+    void beforeClose();
+
+    void afterClose();
 }

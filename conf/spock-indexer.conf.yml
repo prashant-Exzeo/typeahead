@@ -1,0 +1,31 @@
+# Spock Indexer Configuration
+# ---------------------------
+#
+# ES cluster name
+#es.cluster.name: "elasticsearch_Vadi"
+#es.ip: "127.0.0.1"
+#
+# DB IP
+#db.ip: "10.10.0.56:1433"
+#db.username: "vkumar"
+#db.password: "vadi@kumar"
+#db.webdb.name: "exzeoprod_web"
+#db.reportdb.name: "exzeoprod_report"
+
+#
+# ES cluster name
+es.cluster.name: "cluster"
+es.ip : 127.0.0.1
+#
+# DB IP
+
+
+db.ip: "192.168.1.60:1433"
+#
+db.webdb.name: "cc_web_pb2"
+db.username: "pbansal"
+db.password: "9ad608"
+#
+db.reportdb.name: "cc_report_pb2"
+db.reportdb.username: "pbansal"
+db.reportdb.password: "9ad608"

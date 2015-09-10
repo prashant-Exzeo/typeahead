@@ -1,0 +1,18 @@
+<configuration debug="false" >
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <outputPatternAsHeader>false</outputPatternAsHeader>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    
+    <logger name="ch.qos.logback" level="debug"/>
+    <logger name="org.elasticsearch" level="debug"/>
+    <logger name="org.apache.activemq.transport.AbstractInactivityMonitor" level="WARN"/>
+    <logger name="org.quartz.core.QuartzSchedulerThread" level="WARN"/>
+    <logger name="org.apache.activemq.ActiveMQMessageConsumer" level="debug"/>
+
+    <root level="trace">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
