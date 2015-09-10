@@ -25,6 +25,10 @@ public interface ConfigurationSourceProvider {
      * @return an {@link InputStream}
      * @throws IOException if there is an error reading the data at {@code path}
      */
+<<<<<<< HEAD
     public InputStream open() throws IOException;
+=======
+    InputStream open() throws IOException;
+>>>>>>> 	Sprint 2.0
 
 }

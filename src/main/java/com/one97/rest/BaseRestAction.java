@@ -35,7 +35,6 @@ public abstract class BaseRestAction implements HttpRestHandler {
 
         /*
             NOTICE:
-
             Note for anyone who would try to change anything in this method.
             Please only change when you know what you know clearly.
 
