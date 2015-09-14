@@ -6,13 +6,13 @@ import org.jboss.netty.channel.MessageEvent;
 import org.jboss.netty.channel.SimpleChannelHandler;
 
 /*
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  *
  * 		Copyright (c)  2015. Prashant Kumar - All Rights Reserved.
  * 			-	Unauthorized copying of this file, via any medium is strictly prohibited.
  * 			-	This file is Proprietary and Confidential.
  *
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  */
 
 public class HttpBasicAuthHandler extends SimpleChannelHandler {

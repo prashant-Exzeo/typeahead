@@ -15,13 +15,13 @@ import java.util.Locale;
 import java.util.Map;
 
 /*
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  *
  * 		Copyright (c)  2015. Prashant Kumar - All Rights Reserved.
  * 			-	Unauthorized copying of this file, via any medium is strictly prohibited.
  * 			-	This file is Proprietary and Confidential.
  *
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  */
 
 public class ImmutableSpockSettings implements SpockSettings {

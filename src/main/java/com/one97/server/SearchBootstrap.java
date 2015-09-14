@@ -4,6 +4,7 @@ import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.joran.JoranConfigurator;
 import ch.qos.logback.core.joran.spi.JoranException;
 import ch.qos.logback.core.util.StatusPrinter;
+import com.google.common.base.Strings;
 import com.one97.common.conf.ConfigurationSourceProvider;
 import com.one97.common.conf.FileConfigurationSourceProvider;
 import com.one97.common.service.AbstractLifecycleService;
@@ -11,7 +12,6 @@ import com.one97.kernel.KernelServiceImpl;
 import com.one97.settings.SettingsBuilder;
 import com.one97.settings.SpockSettings;
 import com.one97.settings.SpockSettingsBuilder;
-import com.google.common.base.Strings;
 import org.elasticsearch.monitor.jvm.JvmInfo;
 import org.elasticsearch.monitor.process.JmxProcessProbe;
 import org.slf4j.Logger;
@@ -23,13 +23,13 @@ import java.util.Locale;
 import java.util.concurrent.CountDownLatch;
 
 /*
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  *
  * 		Copyright (c)  2015. Prashant Kumar - All Rights Reserved.
  * 			-	Unauthorized copying of this file, via any medium is strictly prohibited.
  * 			-	This file is Proprietary and Confidential.
  *
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  */
 public class SearchBootstrap {
 

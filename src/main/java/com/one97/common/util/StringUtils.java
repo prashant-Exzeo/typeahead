@@ -7,13 +7,13 @@ import java.security.NoSuchAlgorithmException;
 import static com.google.common.base.Strings.isNullOrEmpty;
 
 /*
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  *
  * 		Copyright (c)  2015. Prashant Kumar - All Rights Reserved.
  * 			-	Unauthorized copying of this file, via any medium is strictly prohibited.
  * 			-	This file is Proprietary and Confidential.
  *
- * ---------------------------------------------------------------------------------------------
+ * _____________________________________________________________________________________________
  */
 
 public class StringUtils {
