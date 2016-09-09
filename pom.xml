@@ -12,7 +12,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.one97</groupId>
+    <groupId>com.knightRider.typeahead</groupId>
     <artifactId>typeahead</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -34,7 +34,7 @@
         <jackson.version>2.2.3</jackson.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <apache-httpcomponents.version>4.3.3</apache-httpcomponents.version>
-        <elasticsearch.version>1.4.2</elasticsearch.version>
+        <elasticsearch.version>2.1.1</elasticsearch.version>
         <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
         <javax-servlet-api.version>3.1.0</javax-servlet-api.version>
     </properties>
@@ -142,7 +142,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <compilerVersion>1.7</compilerVersion>
+                    <compilerVersion>1.8</compilerVersion>
 
                 </configuration>
             </plugin>
@@ -174,7 +174,7 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                com.one97.server.SearchServer
+                                com.knightRider.typeahead.server.SearchServer
                             </mainClass>
                         </manifest>
                     </archive>

@@ -1,0 +1,70 @@
+# Typeahead Searcher Configuration
+#
+########################### Http related ################################
+#
+# Only change enable below settings, if you know what you're doing.
+# there are better default values already assumed in the code.
+# This settings are kept here to tweak them to improve performance
+# during load testing.
+#
+#
+#
+# Max content length. defaults to 100mb
+#   http.transport.maxContentLength:
+#
+# Max chunk size when each chunks are sent/receive from client.
+# defaults to 8kb
+#   http.transport.maxChunkSize:
+#
+# Max header size. defaults to 8kb
+#   http.transport.maxHeaderSize:
+#
+# Max initial line length of the http header like "HTTP 1/1 GET"
+#   http.transport.maxInitialLineLength:
+#
+# Should relay on cookies. defaults to false
+#   http.transport.resetCookies:
+#
+# Channel buffer capacity. defaults to disabled.
+#   http.transport.maxCumulationBufferCapacity:
+#   http.transport.maxCompositeBufferComponents:
+#
+# Whether the server is blocking. defaults to false
+#   http.transport.blockingServer:
+#
+# Port to listen to. defaults to 8989
+#   http.transport.port:
+#
+# Host to listen to. defaults to 0.0.0.0
+#   http.transport.bindHost:
+#
+# TCP Keep-Alive. defaults to true
+#   http.transport.tcpKeepAlive:
+#
+# TCP No-Delay. defaults to true
+#   http.transport.tcpNoDelay:
+#
+# Shoud reuse the address. defaults to true.
+#   http.transport.reuseAddress:
+#
+# Buffer for sending out. defaults to 16kb
+#   http.transport.tcpSendBufferSize:
+#
+# Buffer for receiving data in. defaults to 16kb
+#   http.transport.tcpReceiveBufferSize:
+#
+# Enable compression or not. defaults to true
+#   http.transport.compression:
+#
+# Level of compression. defaults to 6
+#   http.transport.compressionLevel:
+#
+# Whether the admin site is enabled or not
+#   http.transport.admin.enabled: true
+#
+# Admin username
+#   http.transport.admin.userName:
+#
+# Admin password
+#   http.transport.admin.password:
+#
